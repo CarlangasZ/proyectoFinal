@@ -1,0 +1,70 @@
+$carousel-indicator-width:           40px;
+$carousel-control-color:             #2B67CF;
+$carousel-control-opacity:           .8;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar{
+  opacity: 2;
+}
+
+.miImagen{
+  border-radius: 1rem;
+  border: #2B67CF 2px solid;
+}
+
+.colcard{
+  background-color: #0A5FF3;
+  width: 20rem;
+}
+
+.colcard2{
+  width: 18rem;
+  border: #2B67CF 2px double;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-aside{
+  margin: 0.5rem;
+}
+
+.carousel{
+  border: #2B67CF 2px double;
+  padding: 0.8px;
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+  width: 50rem;
+}
+
+.carousel-caption{
+  background-color: black;
+  opacity: .3;
+}
+
+.row-section-2{
+  margin-top: 0.5rem;
+}
+
+h3{
+  border:#2B67CF 2px double;
+  border-radius: 0.5rem;
+}
+
+body{
+  background-image: url(./img/fondobody4.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+section{
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.footer{
+  text-align: center;
+  background-color: cornflowerblue;
+}
